@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Red Rose', cursive, sans-serif;
+  font-weight: 400;
+}
+
+footer {
+  background-color: #1D1D1E;
+  color: white;
+  padding: .5em 1em;
+}
+
+footer h2 {
+  margin-bottom: 1.5em;
+}
+
+footer img {
+  filter: brightness(0) invert(1);
+}
+
+footer a {
+  margin-right: 10px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.3em;
+  padding: 2em 0 2em 0;
+}
