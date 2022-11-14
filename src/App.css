@@ -27,6 +27,18 @@ body {
   width: 150px;
 }
 
+#menu {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+  align-items: center;
+}
+
+#menu a {
+  text-decoration: none;
+  color: rgba(67, 67, 67, 1);
+}
+
 #intro {
   display: flex;
   flex-direction: column;
@@ -87,6 +99,35 @@ button {
   flex-direction: column;
   align-items: center;
   gap: .6em;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.NFT {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  border-radius: 1em;
+  border: 1px solid #D7D7D7;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 0;
+}
+
+.rating {
+  margin-top: .5em;
+  display: flex;
+  gap: .5em;
 }
 
 .text-cta {

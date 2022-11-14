@@ -2,6 +2,8 @@ import mbtoken from "../assets/mbtoken.svg";
 import mm from "../assets/metamask.svg";
 import opensea from "../assets/opensea.svg";
 import ctaNFT from "../assets/groupedcta.svg";
+import { collections } from "../NFTStore";
+import NFTCard from "./NFTCard";
 
 const Main = () => {
   return (
@@ -11,6 +13,15 @@ const Main = () => {
         <img src={mm} alt="" />
         <img src={opensea} alt="" />
       </div>
+
+      <div className="gallery-container">
+      <h2>Inspiration for your next adventure</h2>
+      <div id="gallery">
+        {collections.map((collection) => {
+          return <NFTCard key={collection.key} nft={collection.img} />;
+        })}
+      </div>
+    </div>
 
       <div id="cta">
         <div className="image-cta">
