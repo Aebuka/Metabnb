@@ -1,8 +1,17 @@
+import mbtoken from "../assets/mbtoken.svg";
+import mm from "../assets/metamask.svg";
+import opensea from "../assets/opensea.svg";
 import ctaNFT from "../assets/groupedcta.svg";
 
 const Main = () => {
   return (
     <main>
+      <div className="division">
+        <img src={mbtoken} alt="" />
+        <img src={mm} alt="" />
+        <img src={opensea} alt="" />
+      </div>
+
       <div id="cta">
         <div className="image-cta">
           <img src={ctaNFT} alt="" />

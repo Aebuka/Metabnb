@@ -80,6 +80,15 @@ button {
   border-radius: 8px;
 }
 
+.division {
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  margin: .5em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .6em;
+}
+
 .text-cta {
   display: flex;
   flex-direction: column;
