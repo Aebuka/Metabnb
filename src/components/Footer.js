@@ -44,7 +44,7 @@ const Footer = () => {
           <p>Contact us</p>
         </div>
       </div>
-      <p>© 2022 Metabnb</p>
+      <p className="copyright">© 2022 Metabnb</p>
     </footer>
   );
 };

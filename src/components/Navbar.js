@@ -6,15 +6,15 @@ const Navbar = () => {
     <div id="Navbar">
       <img src={logo} alt="" />
 
-      {/* <div id="menu">
+      <div id="menu">
         <a href="/">Home</a>
         <a href="/place-to-stay">Place to stay</a>
         <a href="/">NFTs</a>
         <a href="/">Community</a>
       </div>
-      <div className="btn">
+      <div id="menu-btn" className="btn">
         <a href="/connect-wallet">Connect Wallet</a>
-      </div> */}
+      </div>
 
       <DropDownMenu />
     </div>

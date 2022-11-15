@@ -15,7 +15,7 @@ import image14 from "./assets/Frame14.svg";
 import image15 from "./assets/Frame15.svg";
 import image16 from "./assets/Frame16.svg";
 
-export const collections = [
+export const collections2 = [
   {
     key: 1,
     img: image1,

@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1em;
+  margin: 1em 1em;
 }
 
 #Navbar img {
@@ -33,12 +33,17 @@ a {
   gap: 1em;
 }
 
+#menu, #menu-btn {
+  display: none;
+}
+
 #intro {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1.5em;
   font-size: medium;
+  padding: 1em;
 }
 
 .image-intro {
@@ -86,13 +91,29 @@ span {
   border-radius: 8px;
 }
 
+.btn a {
+  color: white;
+}
+
 .division {
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
   margin: .5em 0;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  padding: .5em 1em;
   gap: .6em;
+}
+
+.division img {
+  width: 100px;
+}
+
+.filterFeature {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1em 1em;
 }
 
 .gallery-container {
@@ -119,6 +140,10 @@ span {
   border-radius: 1em;
   border: 1px solid #D7D7D7;
 }
+
+/* .NFT img {
+  width: 300;
+} */
 
 .card-details {
   display: flex;
@@ -170,7 +195,7 @@ span {
 footer {
   background-color: #1D1D1E;
   color: white;
-  padding: .5em 1em;
+  padding: 1em 1em;
 }
 
 footer h2 {
@@ -190,13 +215,11 @@ footer a {
   flex-direction: column;
   justify-content: space-between;
   gap: 1.3em;
-  padding: 2em 0 2em 0;
+  padding: 1em 0;
 }
 
-header,
-.division,
 #cta {
-  padding: .5em 1em;
+  padding: 1em 1em;
 }
 
 @media screen and (min-width: 768px) {
@@ -204,13 +227,12 @@ header,
     flex-direction: row-reverse;
   }
 
-  .division {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
   .footer-container {
     flex-direction: row;
+    padding: 2em 2em;
+  }
+  .copyright {
+    padding-left: 2em;
   }
   #cta {
     flex-direction: row-reverse;
@@ -218,5 +240,17 @@ header,
   #gallery {
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  .filterFeature {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em 1em;
+  }
+  #menu, #menu-btn {
+    display: inherit;
+  }
+  .menu-container {
+    display: none;
   }
 }
