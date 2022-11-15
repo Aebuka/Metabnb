@@ -2,7 +2,7 @@ import mbtoken from "../assets/mbtoken.svg";
 import mm from "../assets/metamask.svg";
 import opensea from "../assets/opensea.svg";
 import ctaNFT from "../assets/groupedcta.svg";
-import { collections } from "../NFTStore";
+import { collections } from "../HomeNFTStore";
 import NFTCard from "./NFTCard";
 
 const Main = () => {
@@ -34,7 +34,7 @@ const Main = () => {
             gift cards which are traded as NFTs. These NFTs gives our cutomer
             access to loads of our exclusive services.
           </p>
-          <button>Learn more</button>
+          <button className="btn">Learn more</button>
         </div>
       </div>
     </main>

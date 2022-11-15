@@ -18,25 +18,19 @@ body {
   margin-bottom: 1em;
 }
 
-#Navbar button {
-  margin-top: .5em;
-  border-radius: 6px;
-}
-
 #Navbar img {
   width: 150px;
 }
 
-#menu {
-  display: flex;
-  flex-direction: column;
-  gap: .5em;
-  align-items: center;
-}
-
-#menu a {
+a {
   text-decoration: none;
   color: rgba(67, 67, 67, 1);
+}
+
+#menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
 }
 
 #intro {
@@ -44,6 +38,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 1.5em;
+  font-size: medium;
 }
 
 .image-intro {
@@ -59,7 +54,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1em;
-  /* text-align: center; */
 }
 
 .searchbar input {
@@ -84,7 +78,7 @@ span {
   color: #A02279;
 }
 
-button {
+.btn {
   padding: 5px 10px;
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
   color: white;
@@ -99,6 +93,14 @@ button {
   flex-direction: column;
   align-items: center;
   gap: .6em;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  padding: .5em 1em;
 }
 
 #gallery {
@@ -122,6 +124,10 @@ button {
   display: flex;
   justify-content: space-between;
   margin: 6px 0;
+}
+
+.card-details p {
+  font-size: small;
 }
 
 .rating {
@@ -189,9 +195,7 @@ footer a {
 
 header,
 .division,
-.gallery-container,
-#cta,
-footer {
+#cta {
   padding: .5em 1em;
 }
 

@@ -20,7 +20,7 @@ const Header = () => {
           </p>
           <div className="searchbar">
             <input type="search" name="" id="" placeholder="Search for location" />
-            <button>Search</button>
+            <button className="btn">Search</button>
           </div>
         </div>
       </div>
