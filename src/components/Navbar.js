@@ -1,5 +1,6 @@
 import logo from "../assets/groupedlogo.svg";
 import DropDownMenu from "./Dropdown/DropdownMenu";
+import Modal from "./Modal/Modal";
 
 const Navbar = () => {
   return (
@@ -12,8 +13,8 @@ const Navbar = () => {
         <a href="/">NFTs</a>
         <a href="/">Community</a>
       </div>
-      <div id="menu-btn" className="btn">
-        <a href="/connect-wallet">Connect Wallet</a>
+      <div id="menu-btn">
+        <Modal />
       </div>
 
       <DropDownMenu />

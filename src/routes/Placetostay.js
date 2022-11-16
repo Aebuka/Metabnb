@@ -2,23 +2,27 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { collections2 } from "../NFTStore";
 import NFTCard from "../components/NFTCard";
-import filterIcon from "../assets/setting.png"
+import filterIcon from "../assets/setting.png";
 
 const Placetostay = () => {
   return (
     <div>
       <Navbar />
 
-      <div className="filterFeature">
-        <a href="/">Restaurant</a>
-        <a href="/">Cottage</a>
-        <a href="/">Castle</a>
-        <a href="/">fantast city</a>
-        <a href="/">beach</a>
-        <a href="/">Carbins</a>
-        <a href="/">Off-grid</a>
-        <a href="/">Farm</a>
-        <a href="/">Location <img src={filterIcon} alt="" /></a>
+      <div className="filterFeature-Container">
+        <select className="filterFeature">
+          <option>Restaurant</option>
+          <option>Cottage</option>
+          <option>Castle</option>
+          <option>fantast city</option>
+          <option>beach</option>
+          <option>Carbins</option>
+          <option>Off-grid</option>
+          <option>Farm</option>
+        </select>
+        <span>
+          Location <img src={filterIcon} alt="" />
+        </span>
       </div>
 
       <div id="gallery">

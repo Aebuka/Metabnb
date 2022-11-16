@@ -1,4 +1,5 @@
 import { useState, useRef } from "react";
+import Modal from "../Modal/Modal";
 import "../Dropdown/DropdownMenu.css"
 
 const DropDownMenu = () => {
@@ -16,7 +17,7 @@ const DropDownMenu = () => {
         <a href="/place-to-stay">Place to stay</a>
         <a href="/">NFTs</a>
         <a href="/">Community</a>
-        <a href="/connect-wallet">Connect Wallet</a>
+        <Modal />
       </nav>
     </div>
   );
