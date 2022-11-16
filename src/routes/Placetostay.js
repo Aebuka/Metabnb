@@ -20,9 +20,9 @@ const Placetostay = () => {
           <option>Off-grid</option>
           <option>Farm</option>
         </select>
-        <span>
-          Location <img src={filterIcon} alt="" />
-        </span>
+        <div className="span">
+          <input type="text" placeholder="Location"/> <img src={filterIcon} alt="" />
+        </div>
       </div>
 
       <div id="gallery">
