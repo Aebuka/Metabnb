@@ -1,6 +1,8 @@
 import { useState } from "react";
-import "./Modal.css";
-// import walletconnect from ""
+import "../Modal.css";
+import walletconnect from "../assets/bwalletconnect.svg";
+import metamask from "../assets/bcoloredmm.svg";
+import pointer from "../assets/arrowpointer.svg";
 
 const Modal = () => {
   const [modal, setModal] = useState(false);
@@ -34,11 +36,21 @@ const Modal = () => {
               </button>
             </div>
             <p className="modal-item">Choose your preffered wallet:</p>
+            {/*  */}
             <div className="modal-item">
-              <span>MetaMask</span>
+              <div className="modal-item-left">
+                <img className="modal-item-img" src={metamask} alt="" />
+                <span>MetaMask</span>
+              </div>{" "}
+              <img src={pointer} alt="" />
             </div>
+            {/*  */}
             <div className="modal-item">
-              <span>WalletConnect</span>
+              <div className="modal-item-left">
+                <img className="modal-item-img" src={walletconnect} alt="" />
+                <span>WalletConnect</span>
+              </div>{" "}
+              <img src={pointer} alt="" />
             </div>
           </div>
         </div>

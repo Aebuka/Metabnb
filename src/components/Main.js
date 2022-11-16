@@ -15,13 +15,13 @@ const Main = () => {
       </div>
 
       <div className="gallery-container">
-      <h2>Inspiration for your next adventure</h2>
-      <div id="gallery">
-        {collections.map((collection) => {
-          return <NFTCard key={collection.key} nft={collection.img} />;
-        })}
+        <h2>Inspiration for your next adventure</h2>
+        <div id="gallery">
+          {collections.map((collection) => {
+            return <NFTCard key={collection.key} nft={collection.img} />;
+          })}
+        </div>
       </div>
-    </div>
 
       <div id="cta">
         <div className="image-cta">

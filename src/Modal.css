@@ -41,12 +41,28 @@ body.active-modal {
 }
 
 .modal-item {
-    padding: 14px 28px;
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+    justify-content: space-between;
+    border: 1.3px solid #CFD8DC;
+}
+
+.modal-item-left {
+    display: flex;
+    align-items: center;
+}
+
+.modal-item-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
 }
 
 .top-item {
     border-bottom: 1px solid #CFD8DC;
     font-weight: 700;
+    padding: 14px;
 }
 
 .close-modal {

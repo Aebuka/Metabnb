@@ -1,11 +1,11 @@
 import logo from "../assets/groupedlogo.svg";
 import DropDownMenu from "./Dropdown/DropdownMenu";
-import Modal from "./Modal/Modal";
+import Modal from "./Modal";
 
 const Navbar = () => {
   return (
     <div id="Navbar">
-      <img src={logo} alt="" />
+      <img className="navbarImg" src={logo} alt="" />
 
       <div id="menu">
         <a href="/">Home</a>

@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import Modal from "../Modal/Modal";
+import Modal from "../Modal";
 import "../Dropdown/DropdownMenu.css"
 
 const DropDownMenu = () => {
